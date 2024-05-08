@@ -4,11 +4,16 @@
     font-family: "Italiana", sans-serif;
     font-weight: 500;
     color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
 }
 
 .image-one{
     background-image: url(https://tyra-parring.github.io/host-/image/monstera-leaf-coffee-laptop-pencil-diary-marble-textured-backdrop.jpg);
     background-size:cover;
+    height: 100vh;
 }
 
 .image-two{
@@ -51,14 +56,15 @@ footer{
 }
 
 .footer-container{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    /* position: fixed;
+    bottom: 0px;
+    width: 100%; */
 }
 
 .footer-nav{
     display: flex;
     justify-content: center;
+    
 }
 
 .social-media-icons{
@@ -81,3 +87,6 @@ footer{
     justify-content: center;
 }
 
+#sectionLanding{
+    height: 100vh;
+}
