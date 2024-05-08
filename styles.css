@@ -60,11 +60,11 @@ footer{
     color: white;
 }
 
-.footer-container{
+/*.footer-container{
     /* position: fixed;
     bottom: 0px;
     width: 100%; */
-}
+
 
 .footer-nav{
     display: flex;
@@ -114,4 +114,10 @@ footer{
 }
 #sectionLanding{
     height: 100vh;
+}
+
+.homeImage{
+    float: center;
+    left: 50px;
+    top: 50px;
 }
