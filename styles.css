@@ -4,6 +4,7 @@
     font-family: "Italiana", sans-serif;
     font-weight: 500;
     color: rgb(255, 255, 255);
+    
 }
 
 .image-one{
@@ -81,3 +82,22 @@ footer{
     justify-content: center;
 }
 
+.heading{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.text{
+    color: black;
+    font-weight: 599;
+    font-size: large;
+    padding: 10px;
+}
+
+.img{
+    float: center;
+    left: 50px;
+    top: 50px;
+}
