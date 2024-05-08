@@ -48,6 +48,10 @@
 
 .d-flex a:hover{
     text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+.d-flex a{
+    transition: 1s;
 }
 
 footer{
