@@ -81,3 +81,7 @@ footer{
     justify-content: center;
 }
 
+.row{
+    margin: 20%;
+    padding-top: 20%;
+}
