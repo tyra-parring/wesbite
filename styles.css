@@ -12,6 +12,7 @@
 .image-one{
     background-image: url(https://tyra-parring.github.io/host-/image/monstera-leaf-coffee-laptop-pencil-diary-marble-textured-backdrop.jpg);
     background-size:cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -56,6 +57,8 @@
 footer{
     background-color: rgb(35, 35, 35);
     color: white;
+    height: 130px;
+    padding: 15px;
 }
 
 /*.footer-container{
@@ -67,7 +70,7 @@ footer{
 .footer-nav{
     display: flex;
     justify-content: center;
-    
+    padding: px;
 }
 
 .social-media-icons{
@@ -130,4 +133,34 @@ footer{
     display: flex;
     justify-content: center;
     padding: 200px;
+    margin-right: 500px;
+}
+
+.openSentence p{
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 70px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: 55vh;
+    margin-right: 170px;
+}
+
+.scndSentence p{
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    font-size: x-large;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    position: relative;
+    right:300px;
+    bottom: 58vh;
+    margin-right: 175px;
+}
+
+main{
+    height: 10vh;
 }
