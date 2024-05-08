@@ -84,4 +84,49 @@ footer{
 .row{
     margin: 20%;
     padding-top: 20%;
+  
+.edu p{
+    color: black;
 }
+
+.edu h1{
+    color: black;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.resu{
+    display: flex;
+}
+
+.col{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.work{
+    color: black;
+}
+
+.work p{
+    color: black;
+}
+
+.head{
+    color: black;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.txt{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 100;
+    padding-bottom: 20px;
+  }
