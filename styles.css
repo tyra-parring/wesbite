@@ -4,16 +4,11 @@
     font-family: "Italiana", sans-serif;
     font-weight: 500;
     color: rgb(255, 255, 255);
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 .image-one{
     background-image: url(https://tyra-parring.github.io/host-/image/monstera-leaf-coffee-laptop-pencil-diary-marble-textured-backdrop.jpg);
     background-size:cover;
-    background-repeat: no-repeat;
-    height: 100vh;
 }
 
 .image-two{
@@ -48,24 +43,18 @@
 
 .d-flex a:hover{
     text-decoration: underline;
-    text-decoration-thickness: 1px;
-}
-.d-flex a{
-    transition: 1s;
 }
 
 footer{
     background-color: rgb(35, 35, 35);
     color: white;
-    height: 130px;
-    padding: 15px;
 }
 
-/*.footer-container{
-    /* position: fixed;
-    bottom: 0px;
-    width: 100%; */
-
+.footer-container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .footer-nav{
     display: flex;
@@ -92,74 +81,48 @@ footer{
     justify-content: center;
 }
 
+.edu p{
+    color: black;
+}
 
-.heading{
+.edu h1{
     color: black;
     display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.text{
-    color: black;
-    font-weight: 599;
-    font-size: large;
-    padding: 10px;
-}
-
-.img{
-    float: center;
-    left: 50px;
-    top: 50px;
-    padding: 10px;
-}
-
-.about{
-    display: flex;
+    padding-top: 50px;
     justify-content: center;
 }
 
-.aboutText{
-    padding: 50px;
-}
-#sectionLanding{
-    height: 100vh;
+.resu{
+    display: flex;
 }
 
-.homeImage{
-    float: center;
+.col{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.work{
+    color: black;
+}
+
+.work p{
+    color: black;
+}
+
+.head{
+    color: black;
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
     justify-content: center;
-    padding: 200px;
-    margin-right: 500px;
 }
 
-.openSentence p{
-    color: black;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 70px;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    position: relative;
-    bottom: 55vh;
-    margin-right: 170px;
-}
-
-.scndSentence p{
-    display: flex;
-    justify-content: flex-start;
-    color: black;
-    font-size: x-large;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    position: relative;
-    right:300px;
-    bottom: 58vh;
-    margin-right: 175px;
-}
-
-main{
-    height: 10vh;
+.txt{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 100;
+    padding-bottom: 20px;
 }
