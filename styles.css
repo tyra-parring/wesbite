@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
     
 }
 
@@ -91,6 +92,26 @@ footer{
     justify-content: center;
 }
 
+
+.heading{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.text{
+    color: black;
+    font-weight: 599;
+    font-size: large;
+    padding: 10px;
+}
+
+.img{
+    float: center;
+    left: 50px;
+    top: 50px;
+}
 #sectionLanding{
     height: 100vh;
 }
