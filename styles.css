@@ -7,8 +7,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-    
 }
 
 .image-one{
@@ -98,6 +96,7 @@ footer{
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .text{
@@ -111,6 +110,16 @@ footer{
     float: center;
     left: 50px;
     top: 50px;
+    padding: 10px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutText{
+    padding: 50px;
 }
 #sectionLanding{
     height: 100vh;
