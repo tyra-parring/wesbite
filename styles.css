@@ -118,6 +118,6 @@ footer{
 
 .homeImage{
     float: center;
-    left: 50px;
-    top: 50px;
+    display: flex;
+    justify-content: center;
 }
