@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+*{
+    font-family: "Italiana", sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.image-one{
+    background-image: url(https://tyra-parring.github.io/host-/image/monstera-leaf-coffee-laptop-pencil-diary-marble-textured-backdrop.jpg);
+    background-size:cover;
+}
+
+.image-two{
+    background-image: url(https://tyra-parring.github.io/host-/image/beautiful-tropical-leaves-white-background-poster-banner-postcard-template.jpg);
+    background-size: cover;
+}
+
+.image-three{
+    background-image: url(https://tyra-parring.github.io/host-/image/tropical-monstera-leaf-border-frame-leaf-banner-background.jpg);
+    background-size: cover;
+}
+
+.image-four{
+    background-image: url(https://tyra-parring.github.io/host-/image/top-view-monstera-other-leaves-with-copy-space.jpg);
+    background-size: cover;
+}
+
+.image-five{
+    background-image: url(https://tyra-parring.github.io/host-/image/top-view-beautiful-plant-leaves-with-copy-space.jpg);
+    background-size: cover;
+}
+
+.image-six{
+    background-image: url(https://tyra-parring.github.io/host-/image/flat-lay-monstera-other-leaves.jpg);
+    background-size: cover;
+}
+
+.image-seven{
+    background-image: url(https://tyra-parring.github.io/host-/image/arrangement-green-plant-with-copy-space.jpg);
+    background-size: cover;
+}
+
+.d-flex a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    text-size-adjust: ;
+    vertical-align: middle;
+}
+
+.footer-container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-icons a svg{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.social-media-icons a:hover{
+    color: white;
+    transition: 0,5;
+}
