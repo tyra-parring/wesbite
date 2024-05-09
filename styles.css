@@ -85,6 +85,10 @@ footer{
     justify-content: center;
 }
 
+.footer-bottom span{
+    color: white;
+}
+
 .row{
     margin: 20%;
     padding-top: 20%;
@@ -134,4 +138,10 @@ footer{
     font-size: 22px;
     font-weight: 100;
     padding-bottom: 20px;
+  }
+
+  .skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
   }
