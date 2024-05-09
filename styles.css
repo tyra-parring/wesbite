@@ -142,7 +142,7 @@ footer{
 .homeImage{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
   .openSentence p{
@@ -159,4 +159,13 @@ footer{
     justify-content: center;
     font-size: 27px;
     padding-bottom: 30px;
+  }
+
+  .fade-in-text{
+    font-family: ;
+    animation: fadeIn 5s;
+  }
+
+  .scndSentence span{
+    color: rgb(255, 255, 255);
   }
