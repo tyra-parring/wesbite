@@ -81,6 +81,10 @@ footer{
     color: white;
 }
 
+.footer-bottom span{
+    color: white;
+}
+
 .testim{
     font-weight: 200;
     display: flex;
@@ -181,4 +185,8 @@ footer{
 
   .scndSentence span{
     color: rgb(255, 255, 255);
+  }
+
+  .carouselExampleDark{
+    margin: auto;
   }
