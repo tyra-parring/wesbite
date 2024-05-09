@@ -76,4 +76,8 @@ footer{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: absolute;
+    top: 2em;
+    padding-top: 70px;
+    text-align: center;
 }
