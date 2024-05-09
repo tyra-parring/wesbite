@@ -142,15 +142,21 @@ footer{
 .homeImage{
     display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 
   .openSentence p{
         display: flex;
         align-content: center;
+        justify-content: center;
+        font-size: 50px;
+        padding-top: 30px;
   }
 
   .scndSentence{
     display: flex;
     align-content: center;
     justify-content: center;
+    font-size: 27px;
+    padding-bottom: 30px;
   }
