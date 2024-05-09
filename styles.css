@@ -166,8 +166,17 @@ footer{
   }
 
   .fade-in-text{
-    font-family: ;
-    animation: fadeIn 5s;
+    font-family: italiana;
+    animation: fadeIn 4s;
+  }
+
+  @keyframes animate{
+    0% { 
+        width: 0px;
+      }
+      100% {
+        width: 100%;
+      }
   }
 
   .scndSentence span{
