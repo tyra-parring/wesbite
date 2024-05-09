@@ -236,3 +236,27 @@ p{
 .scndSentence span{
     color: rgb(255, 255, 255);
   }
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2400px;
+} 
+/* .btns {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  } */
+/* .btn{
+    padding: 2px;
+} */
+
+.ctn{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: 599;
+    font-size: 67px;
+    padding-bottom: 100px;
+}
