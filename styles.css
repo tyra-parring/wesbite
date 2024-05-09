@@ -50,6 +50,12 @@
     text-decoration: underline;
 }
 
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
 footer{
     background-color: rgb(35, 35, 35);
     color: white;
@@ -69,6 +75,14 @@ footer{
 .footer-bottom{
     display: flex;
     justify-content: center;
+}
+
+.footer-bottom span{
+    color: white;
+}
+
+.footer-bottom span{
+    color: white;
 }
 
 .testim{
@@ -132,3 +146,45 @@ footer{
     font-weight: 100;
     padding-bottom: 20px;
   }
+
+.homeImage{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+  .openSentence p{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-size: 50px;
+        padding-top: 30px;
+  }
+
+  .scndSentence{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 27px;
+    padding-bottom: 30px;
+  }
+
+  .fade-in-text{
+    font-family: italiana;
+    animation: fadeIn 4s;
+  }
+
+  @keyframes animate{
+    0% { 
+        width: 0px;
+      }
+      100% {
+        width: 100%;
+      }
+  }
+
+  .scndSentence span{
+    color: rgb(255, 255, 255);
+  }
+
+  
