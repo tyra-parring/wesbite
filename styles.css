@@ -76,6 +76,10 @@ footer{
     color: white;
 }
 
+.footer-bottom span{
+    color: white;
+}
+
 .footer-bottom{
     display: flex;
     justify-content: center;
@@ -180,13 +184,13 @@ p{
     font-size: 22px;
     font-weight: 100;
     padding-bottom: 20px;
-  }
+}
 
-  .skills{
+.skills{
     display: flex;
     justify-content: center;
     padding-top: 70px;
-  }
+}
 
 .homeImage{
     display: flex;
@@ -229,8 +233,31 @@ p{
       }
   }
 
-  .scndSentence span{
+.scndSentence span{
     color: rgb(255, 255, 255);
   }
 
-  
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2400px;
+} 
+/* .btns {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  } */
+/* .btn{
+    padding: 2px;
+} */
+
+.ctn{
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: 599;
+    font-size: 67px;
+    padding-bottom: 100px;
+}
+
