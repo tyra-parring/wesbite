@@ -3,7 +3,7 @@
 *{
     font-family: "Italiana", sans-serif;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .image-one{
@@ -29,7 +29,12 @@
 .image-five{
     background-image: url(https://tyra-parring.github.io/host-/image/top-view-beautiful-plant-leaves-with-copy-space.jpg);
     background-size: cover;
-}
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: fit-content;
+    height: 100vh;
+    }
 
 .image-six{
     background-image: url(https://tyra-parring.github.io/host-/image/flat-lay-monstera-other-leaves.jpg);
@@ -61,23 +66,15 @@ footer{
     justify-content: center;
 }
 
-.social-media-icons{
-    display: flex;
-    justify-content: center;
-}
-
-.social-media-icons a svg{
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 5px;
-}
-.social-media-icons a:hover a:active a:visited{
-    color: white;
-    transition: 0,5;
-}
-
 .footer-bottom{
     display: flex;
     justify-content: center;
 }
 
+.testim{
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
