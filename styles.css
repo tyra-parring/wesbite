@@ -3,7 +3,7 @@
 *{
     font-family: "Italiana", sans-serif;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .image-one{
@@ -29,7 +29,12 @@
 .image-five{
     background-image: url(https://tyra-parring.github.io/host-/image/top-view-beautiful-plant-leaves-with-copy-space.jpg);
     background-size: cover;
-}
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: fit-content;
+    height: 100vh;
+    }
 
 .image-six{
     background-image: url(https://tyra-parring.github.io/host-/image/flat-lay-monstera-other-leaves.jpg);
@@ -43,6 +48,12 @@
 
 .d-flex a:hover{
     text-decoration: underline;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 footer{
@@ -61,24 +72,45 @@ footer{
     justify-content: center;
 }
 
-.social-media-icons{
-    display: flex;
-    justify-content: center;
-}
-
-.social-media-icons a svg{
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 5px;
-}
-.social-media-icons a:hover a:active a:visited{
+.footer-bottom span{
     color: white;
-    transition: 0,5;
 }
 
 .footer-bottom{
     display: flex;
     justify-content: center;
+}
+
+.footer-bottom span{
+    color: white;
+}
+
+.footer-bottom span{
+    color: white;
+}
+
+.testim{
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 2em;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.footer-bottom span{
+    color: white;
+}
+
+.row{
+    margin: 20%;
+    padding-top: 20%;
+}
+  
+.edu p{
+    color: black;
 }
 
 .col{
@@ -107,3 +139,96 @@ p{
     padding-top: 40px;
     padding-bottom: 60px;
 }
+
+.edu h1{
+    color: black;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.resu{
+    display: flex;
+}
+
+.col{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.work{
+    color: black;
+}
+
+.work p{
+    color: black;
+}
+
+.head{
+    color: black;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.txt{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 100;
+    padding-bottom: 20px;
+  }
+
+  .skills{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+  }
+
+.homeImage{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+#sectionLanding{
+    height: 100vh;
+}
+
+  .openSentence p{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-size: 50px;
+        padding-top: 30px;
+  }
+
+  .scndSentence{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 27px;
+    padding-bottom: 30px;
+  }
+
+  .fade-in-text{
+    font-family: italiana;
+    animation: fadeIn 4s;
+  }
+
+  @keyframes animate{
+    0% { 
+        width: 0px;
+      }
+      100% {
+        width: 100%;
+      }
+  }
+
+  .scndSentence span{
+    color: rgb(255, 255, 255);
+  }
