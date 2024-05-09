@@ -81,3 +81,29 @@ footer{
     justify-content: center;
 }
 
+.col{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+p{
+    color: black;
+    font-weight: 599;
+    padding-top: 5px;
+    font-size: large;
+}
+
+.one{
+    font-weight: 599;
+}
+
+.form-control{
+    font-weight: 400;
+}
+
+.group{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
