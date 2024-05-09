@@ -167,6 +167,11 @@ footer{
     padding-top: 150px;
 }
 
+
+#sectionLanding{
+    height: 100vh;
+}
+
   .openSentence p{
         display: flex;
         align-content: center;
