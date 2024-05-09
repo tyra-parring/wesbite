@@ -261,3 +261,13 @@ p{
     padding-bottom: 100px;
 }
 
+.col{
+    padding: 20px;
+}
+
+.head{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
