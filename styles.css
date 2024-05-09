@@ -91,3 +91,16 @@ footer{
     justify-content: center;
     padding-top: 60px;
 }
+
+.container{
+    padding-top: 200px;
+    padding-bottom: 110px;
+}
+
+.prjs{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    font-weight: 500;
+}
