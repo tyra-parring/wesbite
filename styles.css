@@ -61,6 +61,10 @@ footer{
     justify-content: center;
 }
 
+.footer-bottom span{
+    color: white;
+}
+
 .social-media-icons{
     display: flex;
     justify-content: center;
