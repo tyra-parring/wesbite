@@ -77,6 +77,10 @@ footer{
     justify-content: center;
 }
 
+.footer-bottom span{
+    color: white;
+}
+
 .testim{
     font-weight: 200;
     display: flex;
