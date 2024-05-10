@@ -306,3 +306,10 @@ p{
     align-items: center;
 }
 
+.card-container{
+    display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   padding-top: 40px;
+   margin-left: 490px;
+}
