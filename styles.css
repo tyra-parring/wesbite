@@ -316,3 +316,10 @@ p{
    padding-top: 40px;
    margin-left: 490px;
 }
+
+@media only screen and (max-width:300px) {
+    section{
+        display: inline;
+        flex-wrap: wrap;
+    }
+}
